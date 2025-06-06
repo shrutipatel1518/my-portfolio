@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 300%;
+    background-color:rgba(0, 0, 0, 0.486);
+}
+
+.dashboard{
+    display: flex;
+    width: 100%;
+}
+
+.sidebar{
+    width: 220px;
+    background-color: rgb(26, 22, 22);
+    color: rgb(17, 92, 67);
+    padding: 20px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    margin: 20px 0;
+}
+
+.main{
+    margin-left: 250px ;
+}
+
+.nav-top{
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.dash-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-top: 40px;
+}
+a{
+    padding-left: 60px;
+}
+li{
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.home-img{
+    width: 370px;
+    height: 370px;
+    padding-top: 60px;
+    padding-right: 30px;
+    margin-left: 170px;
+    border-radius: 500px;
+}
+h1{
+    font-size: 3.3em;
+}
+h1>span{
+    position: relative;
+    display: inline-block;
+    color: aliceblue;
+    height: 1.25em;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+h1>span>span{
+    display: block;
+    animation: animinateword 5s infinite ease;
+}
+@keyframes animinateword{
+    0% {transform: translatey(0%);}
+    30% {transform: translatey(-100%);}
+    60% {transform: translatey(-200%);}
+    100% {transform: translatey(-300%);}
+}
+.home{
+    padding-bottom: 60px;
+}
+.porty{
+    font-size: 40px;
+}
+
+.home-left{
+    padding: 30px;
+}
+
+.ello{
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:azure;
+}
+
+.pop{
+    font-style: italic;
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.shuti{
+    font-size: 40px;
+}
+
+span.highlight{
+    color: rgba(54, 170, 64, 0.733);
+}
+
+.flexo{
+    display: flex;
+}
+
+.topo{
+    color: azure;
+    font-size: 30px;
+}
+
+.abt-img{
+    padding-top: 60px;
+    width: 200px;
+    height: 300px;
+}
+
+.aboutme{
+    padding-top: 50px;
+}
+.homoo{
+    display: flex;
+    margin-top: 60px;
+}
+
+.abt-ryt{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.abott{
+    color: #e4dede;
+    font-size: 15px;
+
+}
+
+.abt-p{
+    color: rgb(203, 207, 207);
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 70px;
+}
+
+.vb{
+    font-size: 40px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.bis{
+    font-size: 40px;
+}
+
+.services{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 30px;
+    padding-top: 50px;
+    margin-bottom: 55px;
+    padding-bottom: 20px;
+}
+.op1{
+    display: flex;
+    margin-top: 60px;
+   gap: 70px;
+
+}
+.op2{
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    gap: 70px;
+    
+}
+
+.web-dev{
+    background-color: darkgray;
+    gap: 15px;
+    border: 6px solid grey;
+    width: 470px;
+}
+
+.yoopo{
+    width: 260px;
+    padding-left: 90px;
+    height: 60px;
+    justify-content: center;
+}
+
+.skills{
+   
+    padding-top: 50px;
+    margin-bottom: 55px;
+    padding-bottom: 20px;
+    margin-right: 60px;
+}
+
+.what{
+    font-style:italic;
+    color: antiquewhite;
+}
+
+.ol{
+    color: aliceblue;
+    margin-top: 16px;
+}
+
+.foi{
+    margin-top: 20px;
+    color: cornsilk;
+}
+
+.canvo{
+    height: 30px;
+    width: 60px;
+    gap: 3px;
+    margin-left: 30px;
+}
+.top{
+    display: flex;
+    margin-top: 20px;
+    gap: 6px;
+    padding-bottom: 20px;
+  
+}
+
+.tol{
+    display: flex;
+    padding-bottom: 20px;
+    gap: 6px;
+}
+
+.c{
+    border: 70px solid gray;
+    gap: 6px;
+    background-color: gray;
+  margin-right: ;
+}
+
+.okp{
+    font-style: italic;
+}
+.hmm{
+    font-style: italic;
+}
+
+.uio{
+    color:beige;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.pts{
+    margin-top: 19px;
+}
+
+p.pts-h2{
+    color: rgba(245, 245, 245, 0.911);
+}
+
+.kob{
+    color: azure;
+    font-size: 30px;
+}
+.contact{
+    
+    padding-top: 30px;
+}
+.co-up{
+    color: cornsilk;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.CO-ENDy{
+    margin-left: 30px;
+    gap: 10px;
+}
+.div{
+    border: 3px solid gray;
+    width: 400PX;
+}
+.toto{
+    text-decoration: none;
+    color: rgb(160, 160, 152);
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
